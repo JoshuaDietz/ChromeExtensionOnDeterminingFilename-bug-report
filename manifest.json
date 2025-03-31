@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Download Filename Setter",
+  "version": "1.0",
+  "description": "Sets all download filenames to 'test'",
+  "permissions": ["downloads"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
